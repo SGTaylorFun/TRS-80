@@ -1,0 +1,1 @@
+trs80gp.exe -m1 -nlc -nld -dx

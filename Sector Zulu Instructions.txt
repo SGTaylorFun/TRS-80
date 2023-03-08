@@ -1,0 +1,72 @@
+SECTOR ZULU
+
+Mem Size? 26499
+
+You are in command of the space ship EPSILON 1.
+The mission: to search out and destroy all enemy ships threatening to overtake this sector of the galaxy.
+
+Entities:
++ - EPSILON 1 - Your ship
+@ - KRYLON - Enemy: Easy to dispose of but there are lots of them (16-25)
+& - XORIAN - Enemy: These are mean critters - takes more than one torpedo (3-5)
+% - SPECTOR - Enemy: Close friends of the above - about average to destroy (6-10)
+? - UNKNOWN - They won't bother you if you don't bother them, but if you do hit one expect anything to happen (6-10)
+# - BASE - Breathe a sigh of relief - refuel/re-arm here! (4-6)
+* - STAR - Blocks your movement and missiles
+^ - ASTEROID - Short range sensors don't detect and stop movement - flying into one does 100-300 units damage
+  - BLACK HOLE - Like asteroid, except it can't be destroyed and it is a little less noticeable
+. - EMPTY SPACE
+X - BOUNDARY
+Weapons:
+  - ALPHA RAY - Fires the specified amount of energy at all enemy ships within view, with closer ships getting more damage
+  - ION BEAM - 100 units damage to ship hit - 3 spaces range
+! - TORPEDO - They move slowly, 200 units damage given (10)
+$ - QUANTUM MINE - Moves randomly until exploded - destroys anything within a one unit radius,
+turning it into non-space
+
+Strength of ships:
+EPSILON 1 = 1000
+KRYLON    = 50-150
+XORIAN    = 400-700
+SPECTOR   = 100-400
+
+Energy distribution:
+FFD - Force Field
+      Takes the blows of enemy fire (and asteroids).
+      If it reaches 0, all other systems drop quickly and irregularly.
+ENG - Engines
+      Lowered by movement. Operate above 0 units.
+COM - Computer/Support Systems
+      Fall slowly and steadily.
+      If it drops below 50 units, many functions like the alpha ray are affected.
+      If it reaches 0, you've had it!
+ION - Ion beam
+      Takes 20 units each time used, until it reaches 0 units.
+RAY - Alpha ray
+      The amount fired is used up, down to 0 units.
+
+Commands:
+Level 1                         Level 2          Level 3      
+M - Movement                    Direction (1-8)  Speed (1-5)
+S - Stop movement
+R - Alpha ray                   Units to fire
+I - Ion beam                    Direction (1-8)
+T - Torpedo                     Direction (1-8)
+Q - Launch quantum mine         Direction (1-8)
+X - Explode quantum mine
+E - Change energy distribution  # of units       From (F/E/C/I/R) To (F/E/C/I/R)
+C - Computer information        Number of (K/X/S/Q/T/B)
+H - Hyperspace jump
+D - Self destruct               A - Abort
+
+Pressing "A" in level 2 and 3 aborts any command
+
+Movement:
+Press "M", then the direction (1-8), then the speed. Press "S" to stop.
+Short range sensors automatically shut down the engines when you come across a star,
+a base, an enemy ship, or the galactic perimeter.
+They do not detect asteroids, black holes, torpedos, or quantum mines.
+
+Hyperspace takes you instantly to a random location in the galaxy.
+However, if you arrive anywhere but empty space, your ship will be destroyed.
+Use this option only for emergencies.
