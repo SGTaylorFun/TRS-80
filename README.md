@@ -18,5 +18,5 @@ To run it locally, follow these steps:
 1) Install the trs80gp emulator. You only need the stand-alone trs80gp.exe file.
 1) Run the go.bat file to start the emulator with the parameters set to the Model 1 specifications.
 2) For MEM SIZE? enter 26499. This reserves just enough RAM for the game storage.
-3) From the File menu, select Run and open the Zulu.asc file.
+3) From the File menu, select Run and open the Zulu.cas file.
 4) Enjoy!
