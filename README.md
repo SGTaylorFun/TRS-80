@@ -9,14 +9,20 @@ Thank you George Phillips for bringing back the joy of those early days.
 
 I have a few printouts of the source code for the games I created between 1978 and 1981. I have never shared them with anyone except a few of my friends. I hope there are a few veterans out there that can appreciate what could be done 45 years ago with 16KB of RAM, a million times less than the computer I am typing this into!
 
+To run these programs, first install the trs80gp emulator. You only need the stand-alone trs80gp.exe file. Run the go.bat file to start the emulator with the parameters set to the Model 1 specifications.
+
 Sector Zulu
 -----------
 This was inspired by Trek-80, the text-based Star Trek game written on the Sol-20 computer:
 https://en.wikipedia.org/wiki/Trek-80
 
-To run it locally, follow these steps:
-1) Install the trs80gp emulator. You only need the stand-alone trs80gp.exe file.
-1) Run the go.bat file to start the emulator with the parameters set to the Model 1 specifications.
-2) For MEM SIZE? enter 26499. This reserves just enough RAM for the game storage.
-3) From the File menu, select Run and open the Zulu.cas file.
-4) Enjoy!
+To run it locally, run the go.bat file to start the emulator.
+For MEM SIZE? enter 26499. This reserves just enough RAM for the game storage.
+From the File menu, select Run and open the Zulu.cas file.
+
+Forest Fire
+-----------
+A real time game that simulates a forest fire and scores your efforts to contain it.
+
+To run it locally, run the go.bat file to start the emulator.
+From the File menu, select Run and open the ForestFire.cas file.

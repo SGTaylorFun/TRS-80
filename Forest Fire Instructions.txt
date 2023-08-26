@@ -1,0 +1,36 @@
+FOREST FIRE
+
+"Forest Fire" is a simulation game for one player.
+The object of the game is to extinguish a growing fire
+which is threatening the town and farms of the countryside.
+To do this, you can supervise the construction of barriers
+which block the path of the fire, or direct a water scooper airplane
+to skim water from the lake and drop it over a wider area.
+
+You can only move so quickly, so much of the strategy is in deciding
+what to sacrifice in order to save the most amount of land.
+The game ends when the fire is completely extinguished.
+You will then receive a report on the results of the fire,
+and a skill rating based on how well you protected the town ("#"),
+farms ("F"), and forest of the area, in that order of importance.
+
+As soon as the game begins you can move, build fire barriers,
+or collect or drop water by pressing keys on the keyboard.
+Your initial position is marked by a "+" symbol in the town.
+The fire will appear as a single "*" symbol in the forest.
+Below is a list of all the commands:
+
+Arrow - Moves one space in one of four directions.
+    X - Constructs a fire barrier at your location.
+        Fire cannot start on or cross a barrier.
+        You can build anywhere that is not actively burning,
+        including the town and farms, but this destroys
+        the value of the land.
+    W - If you are over the lake ("L"), collects water.
+        Your position marker will change to a "W".
+		After filling up, press "W" again to drop water
+		anywhere on the map.
+        This puts out fire in a nine acre area around you.
+        It makes it harder for fire to start in that area,
+        or to spread to surrounding land if it does start.
+    E - Ends the game and gives you the final report.
